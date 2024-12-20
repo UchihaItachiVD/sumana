@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* CSS styles for the falling hearts effect */
+    #heart-container {
+      position: relative;
+      width: 100%;
+      height: 800px; /* Adjust the height as per your preference */
+      overflow: hidden;
+    }
+
+    .heart {
+      position: absolute;
+      top: -50px;
+      font-size: 24px;
+      color: red; /* Adjust the color as per your preference */
+      animation: fall 3s ease-in infinite;
+    }
+
+    @keyframes fall {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(500px); /* Adjust the height as per your preference */
+      }
+    }
+  </style>
+  <title>Hey Sumana</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="special.js" defer></script>
+  <!-- <script src="specialeffects.js" defer></script> -->
+</head>
+<body>
+  <header>
+    <h1>Hey Sumana</h1>
+  </header>
+
+  
+  </section>
+  <section id="resources">
+    <!-- <audio id="backgroundMusic" src="audio.mp3" autoplay loop></audio> -->
+
+    <audio id="backgroundMusic" src="audio.mp3" loop></audio>
+
+    <button id="playButton">Play Music</button> <span>click this button before starting</span>
+  
+    
+    <script>
+      const backgroundMusic = document.getElementById("backgroundMusic");
+      const playButton = document.getElementById("playButton");
+  
+      playButton.addEventListener("click", function() {
+        if (backgroundMusic.paused) {
+          backgroundMusic.play();
+          playButton.textContent = "Pause Music";
+        } else {
+          backgroundMusic.pause();
+          playButton.textContent = "Play Music";
+        }
+      });
+    </script>
+  
+   </section>
+
+  <section style="color: rgb(255, 0, 0);" id="comfort">
+    <h2>Message for you</h2>
+    <p id="comforting-message"></p>
+  </section>
+  
+  <button id="color-button"> Click To Change Background Color</button>
+
+  <section id="friendship-message">
+    <h2>Friendship</h2>
+    <p>Friendship is a treasure that makes life special. It’s about sharing laughs, offering support, and creating memories that last forever. Thank you for being an incredible friend, Sumana!</p>
+  </section>
+
+  <section id="personalized-content">
+    <table>
+      <tr>
+        <td><img src="img.png" alt="her image"></td>
+        <td><img src="memory.jpg" alt=" image"></td>
+      </tr>
+    </table>
+    
+
+  </section>
+
+  
+<style>
+    /* CSS styles for the falling hearts effect */
+    #heart-container {
+      position: relative;
+      width: 100%;
+      height: 200px; /* Adjust the height as per your preference */
+      overflow: hidden;
+    }
+
+    .heart {
+      position: absolute;
+      top: -50px;
+      font-size: 24px;
+      color: red; /* Adjust the color as per your preference */
+      animation: fall 3s ease-in infinite;
+    }
+
+    @keyframes fall {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(200px); /* Adjust the height as per your preference */
+      }
+    }
+  </style>
+  <script src="specialeffects.js" defer></script>
+
+  
+  <footer>
+    <p>© 2024 for SUMANA</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

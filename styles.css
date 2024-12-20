@@ -1,0 +1,87 @@
+/* CSS styles for your website */
+
+/* Add general styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5dda15;
+    color: #0a3ecc;
+  }
+  
+  header, footer {
+    background-color: #36f4f4;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    margin-top: 0;
+  }
+  
+  section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #add-message-btn {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #add-message-btn:hover {
+    background-color: #e53935;
+  }
+  
+  #message-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .message {
+    background-color: #fce4ec;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #tips ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  #personalized-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  #resources ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  #resources li {
+    margin-bottom: 5px;
+  }
+  
+  #resources a {
+    color: #f44336;
+    text-decoration: none;
+  }
+  
+  #resources a:hover {
+    text-decoration: underline;
+  }
+  
+
+  /* Add more specific styles as needed */
+  
